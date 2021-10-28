@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="UTF-8">
+
+<head>
+	<title>Seguros ABC</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+	<div class="form-input">
+		<h2>Prima de seguros de auto</h2>
+		<form action="consultar.php" method="POST">
+			<fieldset>
+				<legend>Consultar prima</legend>
+				Género:<br>
+				<select name="genero" class="dropdown" required>
+					<option value="femenino">Femenino</option>
+					<option value="masculino">Masculino</option>
+				</select>
+				<br><br>
+				Edad del solicitante:<br>
+				<input type="text" name="edad" class="campos" autofocus><br><br>
+				<input type="submit" value="Consultar" class="buttom" name="btn_consultar">
+			</fieldset>
+		</form>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+version: '2'
+services:
+  apache-php:
+        image: newdeveloper/apache-php
+        container_name: app-server
+        volumes:
+          - ./app:/var/www/html
+        ports:
+          - "80:80"

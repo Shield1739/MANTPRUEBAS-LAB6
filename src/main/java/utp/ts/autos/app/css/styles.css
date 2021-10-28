@@ -1,0 +1,19 @@
+.form-input{
+	width: 328px;
+	margin: auto;
+	display: block;
+}
+.campos{
+	width: 100px;
+	height: 22px;
+}
+.dropdown{
+	width: 108px;
+	height: 28px;
+}
+.buttom{
+	width: 90px;
+	height: 28px;
+	margin: auto;
+	display: block;
+}
